@@ -1,0 +1,104 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name='yandex-verification' content='74c0e6721aeb7f0d' />
+  <title>QFrost&nbsp;— modelling of thermophysical processes in soils</title>
+  <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+  <link rel="stylesheet" type="text/css" href="/main.css" />
+
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+  <script src="responsiveslides.js"></script>
+  <link rel="stylesheet" type="text/css" href="responsiveslides.css" />
+
+  <link rel="stylesheet" href="mobile.css" media="(max-width:1024px)"/>
+<script>
+  $(function() {
+    $(".rslides").responsiveSlides({
+  pager: true,
+  nav: true,
+  prevText: "← Prev",
+  nextText: "Next →",
+  namespace: "centered-btns"
+});
+});
+</script>
+
+  <script type="text/javascript">
+//<![CDATA[
+    
+              var _gaq = _gaq || [];
+              _gaq.push(['_setAccount', 'UA-34364029-1']);
+              _gaq.push(['_trackPageview']);
+              
+              (function() {
+                var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+              })();
+              
+  //]]>
+  </script>
+</head>
+
+<body>
+  <div id="ohfuck">
+    <div id="container">
+      <div id="header">
+        <img src="/logo.png" alt="QFrost logo" />
+
+        <h1>QFrost</h1>
+
+        <p class="subheading">Software for modelling of&nbsp;thermophysical processes in&nbsp;freezing and frozen soils</p>
+      </div>
+
+      <div id="sidebar">
+        <p>
+           <center><b><a href="/index_ru.html"><img src="/ru.png" /> Русский</a></b></center><hr />
+           <a href="https://bitbucket.org/Obey-Kun/qfrost">Source code &amp; issue tracker</a><br /> 
+           <a href="https://youtu.be/EmUL840AB0E">Workflow presentation <img src="/youtube.png" /></a><br />
+	</p>
+      </div>
+
+      <div id="content">
+	<p><b>QFrost</b> is an opensource project developed for&nbsp;modelling of&nbsp;thermophysical processes in freezing and frozen soils. It&nbsp;allows to solve a wide range of&nbsp;problems in&nbsp;permarfost science, in&nbsp;particular, to&nbsp;evaluate the&nbsp;influence of&nbsp;engineering constructions on the dynamics of frozen soils.</p>
+
+        <p>The problem of heat transfer in freezing soils can not be solved analytically in most practical cases. The&nbsp;standard approach is to figure out the solution numerically applying the finite difference method. The&nbsp;second-order central difference scheme is recommended by <a href="http://tehnavigator.ru/Normdoc/16.rsn.pdf">geotechnical specifications in&nbsp;the Russian Federation</a> and was implemented in&nbsp;the software “Heat” developed in&nbsp;the laboratory of&nbsp;Geocryology of&nbsp;the Lomonosov Moscow State University in&nbsp;the early 1990s.</p>
+
+	<p>The project <b>QFrost</b> aimed to replace the “Heat” software uses the same mathematical method but is&nbsp;notable for&nbsp;the modern user interface and brings a large amount of enhancements and new features, such as piecewice line boundary conditions, monthly air temperature interpolation, and many others.</p>
+
+<div class="rslides_container">
+<ul class="rslides">
+  <li><img src="img/en/17.png" alt=""></li>
+  <li><img src="img/en/18.png" alt=""></li>
+  <li><img src="img/en/19.png" alt=""></li>
+  <li><img src="img/en/iso.png" alt=""></li>
+</ul>
+</div>
+
+	<p>Due to its flexible architecture, <b>QFrost</b> offers wide variety of possibilities to implement the functionality enhancements. For instance, one of the recent new features was the introduction of the phase transition in&nbsp;a&nbsp;temperature range, that is to say, the unfrozen water fraction is defined as a function of&nbsp;temperature. This&nbsp;correlation is indispensable when clays, saline soil or cryopeg is modelled.</p>
+        <h2>Authors</h2>
+
+	<p>The <b>QFrost</b> project development was started in 2010 by two final year undergraduates majoring in&nbsp;geology D.&nbsp;Pesotsky and M.&nbsp;Torgonsky. In 2011, M.&nbsp;Torgonsky retreated from the project and since this moment the project leader and the sole developer has been D.&nbsp;Pesotsky.
+        <p>Issue reports and enhancement requests can be added to <a href="https://bitbucket.org/Obey-Kun/qfrost/issues/">issue tracker</a> or sended to <a href="mailto:Denis Pesotsky%20%3Cdev@qfrost.net%3E">email</a>.</p>
+        <h2>System requirements</h2>
+
+        <p>Project <b>QFrost</b> is written in C++ using <a href="http://qt.nokia.com/">Qt library</a>. It supports all the principal operation systems:</p>
+
+        <ul>
+          <li><b>Microsoft Windows</b> (XP and later);</li>
+          <li><b>Linux/X11</b>;</li>
+          <li><b>Mac OS X</b>.</li>
+        </ul>
+
+	<p>Minimum ammount of RAM is 256&nbsp;MiB, recommended CPU base frequency is 1&nbsp;GHz.</p>
+      </div>
+
+      <div id="footer">
+        <p>Contact with developer: <a href="mailto:Denis Pesotsky%20%3Cdev@qfrost.net%20%3E">dev@qfrost.net</a></p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,12 @@
+   #header, .subheading, #header h1, p.subheading, * html #header {
+      text-align: left;
+      padding-left: 10px;
+   }
+
+   #container {
+     width: auto;
+   }
+
+#header h1, p.subheading {
+width:80%;
+}

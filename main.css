@@ -1,0 +1,193 @@
+body {
+background-color:#EAEAEA;
+background-image: linear-gradient(bottom, rgb(30,30,200) 0%, rgb(235,235,235) 50%, rgb(220,30,30) 100%);
+background-image: -o-linear-gradient(bottom, rgb(30,30,200) 0%, rgb(235,235,235) 50%, rgb(220,30,30) 100%);
+background-image: -moz-linear-gradient(bottom, rgb(30,30,200) 0%, rgb(235,235,235) 50%, rgb(220,30,30) 100%);
+background-image: -webkit-linear-gradient(bottom, rgb(30,30,200) 0%, rgb(235,235,235) 50%, rgb(220,30,30) 100%);
+background-image: -ms-linear-gradient(bottom, rgb(30,30,200) 0%, rgb(235,235,235) 50%, rgb(220,30,30) 100%);
+background-image: -webkit-gradient(linear,
+				   left bottom,
+				   left top,
+				   color-stop(0.0, rgb(30,30,200)),
+				   color-stop(0.5, rgb(235,235,235)),
+				   color-stop(1.0, rgb(220,30,30)));
+font-family:Verdana, sans-serif;
+text-align:center;
+font-size:1em;
+margin:0;
+padding:0;
+}
+
+#ohfuck {
+-pie-background: linear-gradient(bottom, rgb(30,30,200) 0%, rgb(235,235,235) 50%, rgb(220,30,30) 100%);
+behavior:url(/PIE.htc);
+padding:15px 0;
+}
+
+#container {
+background-color:#D6D6E7;
+border:2px solid #323232;
+box-shadow:0 0 15px #323232;
+color:#323232;
+text-align: justify;
+width:780px;
+max-width:95%;
+-webkit-border-radius:15px;
+-moz-border-radius:15px;
+border-radius:15px;
+behavior:url(/PIE.htc);
+margin:0 auto;
+padding:0;
+}
+
+#header {
+border-bottom:1px dashed #323232;
+height:95px;
+text-align:center;
+margin:0 0 15px;
+padding:0 0 0 200px;
+}
+
+* html #header {
+padding-left:125px;
+}
+
+#header h1 {
+color:#161CB5;
+text-shadow:-1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
+font-size:2em;
+width:380px;
+margin:5px 0 0;
+padding:0;
+}
+
+#header h1:first-letter {
+color:#C02222;
+}
+
+#header img {
+float:right;
+padding-right:25px;
+}
+
+* html #header img {
+padding-right:12px;
+padding-top:5px;
+}
+
+h3 {
+font-size:1.2em;
+}
+
+h2 {
+font-size:1.5em;
+}
+
+#container h2 {
+text-align:center;
+}
+
+/*#content img {
+display:block;
+margin-left:auto;
+margin-right:auto;
+}*/
+
+.subheading {
+font-size:1em;
+font-size:max(1em, 12px);
+width:420px;
+margin:0;
+padding:0;
+margin-top:10px;
+line-height: 1em;
+}
+
+* html .subheading {
+margin-top:10px;
+}
+
+#sidebar {
+border:1px solid #555;
+box-shadow:3px 3px 5px #888;
+background-color:#EAEAEA;
+float:right;
+text-align:right;
+width:333px;
+line-height:1.2;
+-webkit-border-radius:8px;
+-moz-border-radius:8px;
+border-radius:8px;
+behavior:url(/PIE.htc);
+margin:5px 20px 0 6px;
+padding:4px 6px 4px 4px;
+}
+
+* html #sidebar {
+margin:6px 10px 0 3px;
+padding:2px 3px 2px 4px;
+}
+
+#sidebar * {
+margin:0;
+padding:0;
+}
+
+#sidebar ul {
+list-style:none;
+}
+
+#sidebar a {
+text-decoration: none;
+}
+
+#sidebar a:hover {
+text-decoration: underline;
+}
+
+#sidebar a:active {
+text-decoration: underline;
+}
+
+#sidebar h2 {
+text-align:right;
+}
+
+#content {
+font-size:.9em;
+line-height:1.5;
+padding:0 20px;
+}
+
+#footer {
+border-top:1px dashed #323232;
+clear:both;
+text-align:right;
+}
+
+#footer p {
+vertical-align:middle;
+margin:7px 15px 7px 0;
+}
+
+a:link {
+color:#00458A;
+}
+
+a:hover {
+color:#32638B;
+}
+
+a:visited {
+color:#0057AE;
+}
+
+a:active {
+color:#00316E;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
